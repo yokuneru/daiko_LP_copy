@@ -1,0 +1,246 @@
+@charset "UTF-8";
+@media screen and (min-width: 736px) {
+  /*　for iPad 　*/
+  .hide-tb {
+    display: none; }
+
+  .hide-sp {
+    display: block; }
+
+  .header-wrap {
+    min-width: 1140px;
+    position: relative;
+    margin-right: 0px; }
+
+  .header-nav {
+    position: absolute;
+    left: 200px; }
+
+  .header-nav-list {
+    display: flex;
+    justify-content: flex-start; }
+
+  .header-nav-item + .header-nav-item {
+    margin-left: 3vw; }
+
+  .header-nav-link {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000; }
+
+  .header-contact {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 340px;
+    height: 100px;
+    background: #3E62AD;
+    z-index: 10;
+    color: #fff;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center; }
+
+  .header-contact-way {
+    font-size: 1.3rem; }
+
+  .header-contact-num {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    margin: 5px 0 7px 0; }
+
+  .header-contact-time {
+    font-size: 1.3rem; }
+
+  .header-contact-mail {
+    display: block;
+    width: 130px;
+    height: 100%;
+    border: 2px solid #fff;
+    background: #17184B; }
+
+  .header-mail-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 5px; }
+
+  .header-mail-text {
+    font-size: 1.5rem;
+    color: #fff; }
+
+  .main {
+    min-width: 1140px; }
+
+  .mainvisual-trim {
+    height: 580px; }
+
+  .main-msg-top {
+    font-size: 4rem;
+    margin-bottom: 20px; }
+
+  .main-msg-bottom {
+    font-size: 4.8rem;
+    margin-bottom: 30px; }
+
+  .main-msg-spotlight {
+    font-size: 6.6rem; }
+
+  .main-msg-border {
+    width: 500px; }
+
+  .main-msg-jp {
+    font-size: 2rem; }
+
+  .mainvisual-controller-box {
+    bottom: -38px;
+    right: 30px; }
+
+  .mainvisual-controller {
+    width: 60px;
+    height: 75px; }
+
+  .mainvisual-controller + .mainvisual-controller {
+    margin-left: 3px; }
+
+  .news-head {
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+    color: #333; }
+
+  .news-nav {
+    margin-bottom: 60px; }
+
+  .news-nav-list {
+    margin-left: 30px; }
+
+  .news-list-link {
+    font-size: 1.6rem;
+    padding: 10px 24px; }
+
+  .news-box {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 40px; }
+
+  .news-contents-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+
+  .news-contents-link {
+    width: 490px; }
+
+  .news-contents-date {
+    margin-bottom: 20px; }
+
+  .about-head {
+    font-size: 3.5rem;
+    padding: 80px 0 18px 0; }
+
+  .about-sub {
+    font-size: 1.5rem;
+    margin-bottom: 60px; }
+
+  .about-text {
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin-bottom: 40px; }
+
+  .about-text-border {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff; }
+
+  .contents-wrap {
+    padding-bottom: 50px; }
+
+  .contents-item + .contents-item {
+    margin-top: 50px; }
+
+  .contents-img {
+    width: 880px;
+    height: 450px;
+    max-width: none; }
+
+  .contents-text-box {
+    top: 50%;
+    left: 48%;
+    transform: translate(0, -50%);
+    width: 520px;
+    max-width: none;
+    padding: 50px 50px 0 50px; }
+
+  .contents-link {
+    position: relative;
+    left: 135px; }
+
+  .recruit-wrap {
+    height: 400px;
+    padding-top: 60px; }
+
+  .sales-link {
+    height: 200px; }
+
+  .calendar-link {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .shop-link {
+    position: relative; }
+
+  .shop-link-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+  .shop-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .sales-icon {
+    margin-top: 0px;
+    margin-right: 20px; }
+
+  .contact-wrap {
+    height: 250px; }
+
+  .contact-head {
+    margin-bottom: 30px; }
+
+  .contact-head-border {
+    padding-bottom: 20px; }
+
+  .contact-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1100px; }
+
+  .contact-num {
+    margin-top: 10px; }
+
+  .contact-btn {
+    margin-top: 0; }
+
+  .footer-wrap {
+    min-width: 1140px; }
+
+  .footer-top {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+
+  .footer-right {
+    width: 500px; }
+
+  .footer-nav-list {
+    margin-bottom: 50px; } }
+
+/*# sourceMappingURL=screen768.css.map */
